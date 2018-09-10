@@ -12,12 +12,12 @@ import br.com.rockpaperscissors.jjp.exceptions.WrongNumberOfPlayersError;
 public class Regras {
 	
 	/***
-	 * Torneio continua atÈ que haja apenas um ˙nico vencedor.
+	 * Torneio continua at√© que haja apenas um √∫nico vencedor.
 	 * @param tournament Confere jogadas numa lista
 	 * @return Array de String Jogada e jogador vencedor
-	 * @throws WrongNumberOfPlayersError Se o n˙mero de jogadores n„o for igual a 2 
-	 * e se o formato n„o for Strinf[]
-	 * @throws NoSuchStrategyError Se a estratÈgia de qualquer jogador for diferente de "R", "P" ou "S"
+	 * @throws WrongNumberOfPlayersError Se o n√∫mero de jogadores n√£o for igual a 2 
+	 * e se o formato n√£o for String[]
+	 * @throws NoSuchStrategyError Se a estrat√©gia de qualquer jogador for diferente de "R", "P" ou "S"
 	 */
 	
     public String[] rps_tournament_winner(Object[] tournament) throws WrongNumberOfPlayersError, NoSuchStrategyError {
@@ -41,9 +41,9 @@ public class Regras {
      * 
      * @param players array de jogadores e jogadas
      * @return Jogada e jogador vencedor
-     * @throws WrongNumberOfPlayersError Se o n˙mero de jogadores n„o for igual a 2 
-	 * e se o formato n„o for String[] 
-     * @throws NoSuchStrategyError Se a estratÈgia de qualquer jogador for diferente de "R", "P" ou "S" 
+     * @throws WrongNumberOfPlayersError Se o n√∫mero de jogadores n√£o for igual a 2 
+	 * e se o formato n√£o for String[] 
+     * @throws NoSuchStrategyError Se a estrat√©gia de qualquer jogador for diferente de "R", "P" ou "S" 
      */
 
     public String[] rps_game_winner(Object[] players) throws WrongNumberOfPlayersError, NoSuchStrategyError {
@@ -81,12 +81,12 @@ public class Regras {
     }
     
     /**
-     * Verificar se array passado por par‚metro esta no padr„o que o metodo espera
+     * Verificar se array passado por par√¢metro esta no padr√£o que o metodo espera
      * 
      * @param players Confere Array de objetos 
-     * @throws WrongNumberOfPlayersError Se o n˙mero de jogadores n„o for igual a 2 
-	 * e se o formato n„o for Strinf[]
-     * @throws NoSuchStrategyError Se a estratÈgia de qualquer jogador for diferente de "R", "P" ou "S" 
+     * @throws WrongNumberOfPlayersError Se o n√∫mero de jogadores n√£o for igual a 2 
+	 * e se o formato n√£o for String[]
+     * @throws NoSuchStrategyError Se a estrat√©gia de qualquer jogador for diferente de "R", "P" ou "S" 
      */
 
     private void verificar(Object[] players) throws WrongNumberOfPlayersError, NoSuchStrategyError {
